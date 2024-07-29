@@ -5,6 +5,7 @@ import SignIn from './components/SignIn';
 import CreatePost from './components/CreatePost';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ViewAll from './components/ViewAll';
+import Viewmypost from './components/Viewmypost';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/signup' element={<SignUp/>}/>
         <Route path='/create' element={<CreatePost/>}/>
         <Route path='/viewall' element={<ViewAll/>}/>
+        <Route path='/viewmypost' element={<Viewmypost/>}/>
        </Routes>
        </BrowserRouter>
 
